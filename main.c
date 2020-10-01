@@ -61,7 +61,7 @@ try_again:
 	head    = n;
 #elif  WE_HAVE_A_PLAN
 	if (!revolucion_cas(&head, first, n)) {
-		printf("x-( ");
+		printf("X-( ");
 	}
 #elif  PROFESSIONALS_TAKE_OVER
 	if (!revolucion_cas(&head, first, n)) goto try_again;
@@ -99,7 +99,7 @@ panic(char *msg)
 	exit(EXIT_FAILURE);
 }
 
-#define ITER 1000000
+#define ITER 10000000
 
 void *
 popper_revolutionary(void *d)

@@ -10,7 +10,7 @@
 #include <ps_arch_x86_common.h>
 
 struct ticket_lock {
-	unsigned long ticket;  /* which ticket number will we pull? */
+	unsigned long ticket;   /* which ticket number will we pull? */
 	unsigned long serving;	/* which ticket number is the lock serving? */
 };
 
