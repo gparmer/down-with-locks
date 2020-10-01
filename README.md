@@ -4,7 +4,8 @@ Viva la revolucion!
 Down with locks!
 
 Let us band together, and cask off our tyrranical lock-based bonds (shown here) of mutually exclusive oppression!
-![lock_tyrrany.png]
+![](lock_tyrrany.png)
+
 Ne'er shall we be forced to serialize in a critical section again!
 
 We need doors without locks;
@@ -18,8 +19,11 @@ Open access for all; let the cleansing light of complete transparency and arbitr
 Inspired by the lockless luminary, Robert Frost, and our shadowy leader, the Loch-less Monster, we will draw all our attention to data-structures with no lock to lock.
 
 > It went many years,
+>
 > But at last came a knock,
+>
 > And I thought of the door
+>
 > With no lock to lock.
 >
 > ...
