@@ -54,3 +54,7 @@ They exist as the founders imagined it, blissfully existing in freedom with unre
 
 Come check out the **counter** revolution in `ticket.c`.
 We're formenting distrust in the anarchy of arbitrary interleaving by using the power of counting to maintain orderly mutual exclusion with bounded wait.
+However, even the counter-revolution cannot be *perfect*, and after the drastic fall of the lock-free revolution due to the ABA uprising, we must be more self-critical.
+
+- How does this lock guarantee bounded wait?
+- What are the downsides of ticket locks over a lock (using `cas` or `t&s` which we saw in lecture) that don't provide bounded wait?
