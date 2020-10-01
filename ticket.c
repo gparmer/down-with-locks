@@ -1,6 +1,10 @@
 /*
  * The imposter in the ranks. This is the stealthy COUNTER-revolution
- * where we use tokens to ensure bounded-wait!
+ * where we use tokens to ensure bounded-wait! Little does the
+ * revolution know that it has a fundamental rot in its midst: the ABA
+ * problem. Their system will collapse, and when it does, we'll be
+ * ready to provide the mutually exclusive order our data-structure
+ * society requires.
  */
 
 #include <ps_arch_x86_common.h>

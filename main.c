@@ -161,8 +161,9 @@ main(int argc, char *argv[])
 
 
 
+
 /*
- * The shadowy lock COUNTER revolution to overthrow the lockless
+ * The lock COUNTER revolution to overthrow the lockless
  * revolution is in ticket.c. Now we can have locks *with bounded wait
- * guarantees!!!!*.
+ * guarantees!!!!*, lurking in the shadows.
  */
